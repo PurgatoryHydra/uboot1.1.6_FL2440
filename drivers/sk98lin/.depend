@@ -1,0 +1,71 @@
+skge.o: skge.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skaddr.o: skaddr.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skgehwt.o: skgehwt.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skgeinit.o: skgeinit.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skgepnmi.o: skgepnmi.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skgesirq.o: skgesirq.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+ski2c.o: ski2c.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+sklm80.o: sklm80.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skqueue.o: skqueue.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skrlmt.o: skrlmt.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+sktimer.o: sktimer.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skvpd.o: skvpd.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skxmac2.o: skxmac2.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+skcsum.o: skcsum.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+uboot_skb.o: uboot_skb.c /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h
+uboot_drv.o: uboot_drv.c /home/duke/u-boot-1.1.6/include/common.h \
+ /home/duke/u-boot-1.1.6/include/config.h \
+ /home/duke/u-boot-1.1.6/include/configs/smdk2410.h \
+ /home/duke/u-boot-1.1.6/include/cmd_confdefs.h \
+ /home/duke/u-boot-1.1.6/include/linux/bitops.h \
+ /home/duke/u-boot-1.1.6/include/asm/bitops.h \
+ /home/duke/u-boot-1.1.6/include/linux/types.h \
+ /home/duke/u-boot-1.1.6/include/linux/config.h \
+ /home/duke/u-boot-1.1.6/include/linux/posix_types.h \
+ /home/duke/u-boot-1.1.6/include/linux/stddef.h \
+ /home/duke/u-boot-1.1.6/include/asm/posix_types.h \
+ /home/duke/u-boot-1.1.6/include/asm/types.h \
+ /home/duke/u-boot-1.1.6/include/linux/string.h \
+ /home/duke/u-boot-1.1.6/include/asm/string.h \
+ /home/duke/u-boot-1.1.6/include/asm/ptrace.h \
+ /home/duke/u-boot-1.1.6/include/asm/proc/ptrace.h \
+ /home/duke/cross_compiler_4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h \
+ /home/duke/u-boot-1.1.6/include/part.h \
+ /home/duke/u-boot-1.1.6/include/ide.h \
+ /home/duke/u-boot-1.1.6/include/flash.h \
+ /home/duke/u-boot-1.1.6/include/image.h \
+ /home/duke/u-boot-1.1.6/include/asm/u-boot.h \
+ /home/duke/u-boot-1.1.6/include/asm/global_data.h \
+ /home/duke/u-boot-1.1.6/include/asm/mach-types.h \
+ /home/duke/u-boot-1.1.6/include/asm/setup.h \
+ /home/duke/u-boot-1.1.6/include/asm/u-boot-arm.h
